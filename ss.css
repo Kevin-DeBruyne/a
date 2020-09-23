@@ -1,0 +1,125 @@
+*{  
+    background-color: orange;
+    margin: 0px;
+    z-index: -5;
+}
+#login{
+    background-color: pink;
+}
+#box{
+   
+    width: 450px;
+    background-color: rgb(248, 232, 206);
+    text-align: center;
+    margin: 150px auto;
+    z-index: 1;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+#box input[type="text"]{
+    border-radius: 30px;
+    height: 45px;
+    width: 180px;
+    
+    text-align: center;
+    transition: 0.25s;
+   
+}
+#date{
+    border-radius: 30px;
+    height: 45px;
+    width: 180px;
+    text-align: center;
+    transition: 0.25s; 
+}
+.sticky-logo{
+    float: left;
+    z-index: 0;
+    height: 500px;
+    border-radius: 100%;
+    position: sticky;
+    left: 500px;;
+    width: 520px;
+    top:90px;
+    display: block;
+    opacity: 0.16;
+
+  }
+select{
+    border-radius: 30px;
+    height: 35px;
+    width: 180px;
+    text-align: center;
+    transition: 0.25s; 
+    background-color: pink;
+    color: green;
+}
+#male{
+    margin-left: -50px;
+    border-radius: 100px;
+    transition: 0.25s;
+}
+#female{
+    margin-left: -65px;
+    border-radius: 100px;
+    transition: 0.25s;
+}
+#box input [type="date"]{
+    border-radius: 30px;
+    height: 35px;
+    width: 180px;
+    text-align: center;
+    transition: 0.25s;
+      
+}
+#box input{
+    background-color: pink;
+  
+}
+
+
+#box input[type="submit"]{
+    border-radius: 30px;
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    transition: 0.25s;
+    border-color: antiquewhite;
+   
+  
+}
+#box input[type="text"]:hover{
+    border-radius: 30px;
+    width: 250px;
+}
+#box input[type="submit"]:hover{
+     
+    background-color: rgb(0, 90, 105);
+    color:  rgb(248, 232, 206);
+}
+#box input[type="date"]:hover{
+    
+    background-color: rgb(0, 90, 105);
+    color:  rgb(248, 232, 206);
+}
+
+select:hover{
+    border-radius: 30px;
+    background-color: rgb(0, 90, 105);
+    color: rgb(248, 232, 206);
+}
+#webd{
+
+}
+#pub{
+margin-left: -57px;
+}
+#spon{
+    margin-left: -38px;
+}
+#photo{
+    margin-left: -57px;
+}
+#con_w{
+    margin-left: -15px;
+}
